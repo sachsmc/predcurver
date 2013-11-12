@@ -6,7 +6,7 @@ The aim of `predcurver` is to provide a predictiveness curve class. It can be us
 To install, first install devtools from CRAN, then run
 
 ```
-devtools::install_github("predcurver")
+devtools::install_github("predcurver", username = "sachsmc")
 ```
 
 To estimate the predictiveness curve, all you need is a vector of `risk` values (between 0 and 1). Then create the predictiveness curve objects with
