@@ -1,0 +1,24 @@
+Package: predcurver
+Maintainer: Michael Sachs <michael.sachs@nih.gov>
+Author: Michael Sachs
+Version: 1.0
+License: GPL-3
+Title: Predictiveness Curve class and methods
+Description: Functions to estimate, plot, summarize, and test the
+    predictiveness curve. Tools for evaluating a biomarker for risk prediction.
+Suggests:
+    testthat,
+    roxygen2,
+    knitr
+Collate:
+    'predcurver-package.r'
+    'predcurver-evalcdf.R'
+    'predcurver-predcurve.default.R'
+    'predcurver-predcurve.R'
+    'predcurver-ppev.R'
+    'predcurver-ptg.R'
+    'predcurver-plot.predcurve.R'
+    'predcurver-print.predcurve.R'
+    'predcurver-summary.predcurve.R'
+    'predcurver-predcurve.permute.test.R'
+VignetteBuilder: knitr
