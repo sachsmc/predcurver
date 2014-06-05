@@ -13,3 +13,11 @@ To estimate the predictiveness curve, all you need is a vector of `risk` values 
 ```
 predcurve(risk)
 ```
+
+To run the Shiny application that comes with this package, you will need the `shiny` package from CRAN. Then the command is
+
+```
+library(shiny)
+runGitHub("predcurver", "sachsmc", subdir = "inst/shinyapp/")
+```
+
